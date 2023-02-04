@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-image: url(./assets/circles.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mangtracker {
+   animation: fadeInAnimation ease 2s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+
+   margin-top: 0px;
+   margin-bottom: 10px;
+   font-family: sans-serif;
+   font-size: 5vmax;
+   font-weight: bold;
+   background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+ 
+.HomeBookmarks {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.signin-btn-group {
+    background-color: rgba(244, 244, 244, 0.979);
+}
+
+.login-wrapper {
+  display: flex;
+  flex: column;
+  align-items: center;
+}
+
+.loading-spin-container {
+  display: flex;
+  flex: column;
+  align-items: center;
+}
+
+.signin-logo {
+  height: 2vmax;
+}
+
+
+.MuiTabs-scroller, .MuiTabs-scroller a {
+  background-color: rgba(255,255,255,1);
+  border-radius: 20px;
+  color: black;
+
+}
+
+.navbar-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.addButton{
+ position: absolute;
+ bottom: 3rem;
+ right: 2rem;
+}
+.css-1fo2sjy-MuiButtonBase-root-MuiFab-root{
+background-color: white !important;
+color: #1976d2 !important;
+}
+.css-1fo2sjy-MuiButtonBase-root-MuiFab-root:hover{
+  transition: 0.1s ease-in ;
+  background-color: #1976d2 !important;
+  color: white !important;
+  font-weight: .5px !important;
+}
+
+.accounttext {
+  margin-top: 10%;
+  display: flex;
+  color: white;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 40px;
+  border-width: 1px;
+  border-color:rgba(244, 244, 244, 0.3);
+}
+
+.accounttextul {
+  list-style-type: none;
+  text-align: left;
+  flex-shrink: 0 !important;
+}
